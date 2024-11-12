@@ -26,4 +26,15 @@ class Call{
             $this->database = new Database();
         }
     }
+
+    public function findById($id) {
+        $query = $this->database->mysql->query("SELECT * FROM {$this->table} WHERE id={$id}");
+        $result = $query->fetchAll();
+
+        return new Call($result[0]["id"], $result[0]["room"], $result[0]["issue"], $result[0]["dateTime"], $result[0]["area"]);
+    }
+
+    public function destroy() {
+        $query = $this->database->mysql->query("DELETE FROM {$this->table} WHERE id={$this->id}");
+    }
 }
