@@ -26,4 +26,8 @@ class Call{
             $this->database = new Database();
         }
     }
+
+    public function save() {
+        $query = $this->database->mysql->query("INSERT INTO {$this->table} (room, issue, dateTime, area) VALUES ('{$this->room}', '{$this->issue}', '{$this->dateTime}', '{$this->area}')");
+    }
 }
