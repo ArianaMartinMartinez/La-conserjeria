@@ -1,5 +1,6 @@
 @import url(footer.css);
 @import url(header.css);
+@import url(form.css);
 
 :root {
   --yellow: #d3a923;
@@ -49,6 +50,10 @@
 
 body {
   background-color: var(--lightyellow);
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 
 .headerList {

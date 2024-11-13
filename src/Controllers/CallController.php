@@ -10,10 +10,16 @@ class CallController {
     public function __construct(){
         if(isset($_GET["action"]) && ($_GET["action"] == "create")) {
             $this->create();
+            return;
         }
 
         if(isset($_GET["action"]) && ($_GET["action"] == "delete")){
             $this->delete($_GET["id"]);
+            return;
+        }
+
+        if(isset($_GET["action"]) && ($_GET["action"] == "store")) {
+            $this->store($_POST);
             return;
         }
 
