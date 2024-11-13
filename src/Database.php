@@ -22,7 +22,7 @@ class Database {
         $user = "root";
         $password = "";
         $database = "Conserjeria";
-        $charset = "utf-8";
+        $charset = "utf8";
 
         $options = [PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC];
         $pdo = new PDO("mysql:host={$host};dbname={$database};charset={$charset}", $user, $password, $options);
