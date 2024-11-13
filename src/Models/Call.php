@@ -27,6 +27,19 @@ class Call{
         }
     }
 
+    public function all(){
+        $query = $this->database->mysql->query("SELECT * FROM {$this->table}");
+        $callArray = $query->fetchAll();
+        $callList = [];
+
+        foreach($callArray as $call){
+            $callItem = new Call($call["id"],$call["room"],$call["issue"],$call["dateTime"],$call["area"]);
+            array_push($callList, $callItem);
+        }
+        
+        return $callList;
+    }
+    
     public function findById($id) {
         $query = $this->database->mysql->query("SELECT * FROM {$this->table} WHERE id={$id}");
         $result = $query->fetchAll();
