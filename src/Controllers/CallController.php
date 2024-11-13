@@ -3,6 +3,7 @@
 namespace App\Controllers;
 
 use App\Models\Call;
+use App\Core\View;
 
 class CallController {
     
@@ -12,5 +13,7 @@ class CallController {
 
     public function index(){
         $call = new Call();
+        $calls = $call->all();
+        new View("callList", ["call" => $calls]);
     }
 }

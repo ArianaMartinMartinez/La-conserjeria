@@ -4,6 +4,12 @@ footer {
     padding: 10px 0;
     border-top: 5px solid #000000;
     text-align: center;
+<<<<<<< HEAD
+=======
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+>>>>>>> view
 }
 
 footer a {

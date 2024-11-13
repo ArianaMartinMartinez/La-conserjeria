@@ -1,2 +1,78 @@
-@import URL(header.css);
-@import URL(footer.css);
+@import url(footer.css);
+@import url(header.css);
+
+:root {
+  --yellow: #d3a923;
+  --lightyellow: #eee8ab;
+  --mediumyellow: #e0cb67;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.divButton {
+  display: flex;
+  justify-content: center;
+}
+
+.newIssue {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.newIssue button {
+  width: 150px;
+  font-size: medium;
+  height: 35px;
+  background-color: #2d2d2dce;
+  cursor: pointer;
+  color: var(--mediumyellow);
+  border: 2px black solid;
+  border-radius: 3%;
+}
+
+.newIssue button:hover {
+    background-color: #2d2d2d7e;
+}
+
+.table {
+  display: flex;
+  justify-content: center;
+  border-collapse: collapse;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+body {
+  background-color: var(--lightyellow);
+}
+
+.headerList {
+  font-weight: bolder;
+  font-size: larger;
+  background-color: var(--yellow);
+}
+
+td, th {
+  border: 3px black solid;
+  width: 15em;
+  height: 2em;
+  text-align: center;
+}
+
+.smallWidth {
+  width: 3em;
+  padding: 5px;
+}
+
+td {
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+}
