@@ -33,7 +33,7 @@ class Call{
         $callList = [];
 
         foreach($callArray as $call){
-            $callItem = new Call($call["id"],$call["room"],$call["issue"],$call["dateTime"]);
+            $callItem = new Call($call["id"],$call["room"],$call["issue"],$call["dateTime"],$call["area"]);
             array_push($callList, $callItem);
         }
         
