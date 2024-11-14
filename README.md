@@ -49,7 +49,12 @@ The CRUD is integrated into a table maintaining an external button to add new da
 `http://localhost/La-conserjeria/index.php`
 
 ## About us
-
+We are a team of developers powering our skills in a bootcamp on frontend-backend and AWS.
+<p>https://github.com/ArianaMartinMartinez</p>
+<p>https://github.com/Crudo7</p>
+<p>https://github.com/soyJenifer</p>
+<p>https://github.com/SantiVigna</p>
+<p>https://github.com/sr-calcetines</p>
 
 
 
