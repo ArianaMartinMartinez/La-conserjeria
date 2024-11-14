@@ -11,9 +11,8 @@ The CRUD is integrated into a table maintaining an external button to add new da
 ![image](https://github.com/user-attachments/assets/260d8211-a320-45f7-bd10-ff243772a984)
 <p align="center"><em>Create new incident view</em></p>
 
-
+![image](https://github.com/user-attachments/assets/6ed88f8f-4964-4585-aa5c-6e3783545ad9)
 <p align="center"><em>Update incident view</em></p>
-
 
 ## Languages ​​and tools
 
@@ -23,6 +22,9 @@ The CRUD is integrated into a table maintaining an external button to add new da
 - ![SQL](https://img.shields.io/badge/-SQL-4479A1?logo=sqlite&logoColor=white)  
 
 ## Installation Guide    
+
+💡You can visit the project hosted on github pages following this link:
+https://arianamartinmartinez.github.io/La-conserjeria/
 
 0️⃣ The first step before doing the proyect is to design how the database is going to be structured; For this we have used [drawSQL](https://drawsql.app/), generating this table in the process that we will use as a template.
 
