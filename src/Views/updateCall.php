@@ -11,25 +11,25 @@ require_once("Components/layout.php");
             <button>Cancel</button>
         </a>
 
-        <form action='?action=storeUpdate&id=<?php echo "{$data["call"]->id}" ?>' method="post">
+        <form action='?action=storeUpdate&id=<?php echo "{$data["call"]->getId()}" ?>' method="post">
             <div>
                 <label for="room">Room</label>
-                <input type="number" name="room" required value="<?php echo "{$data["call"]->room}" ?>">
+                <input type="number" name="room" required value="<?php echo "{$data["call"]->getRoom()}" ?>">
             </div>
 
             <div class="divIssue">
                 <label for="issue">Issue</label>
-                <textarea name="issue" rows="7" cols="30" placeholder="Write the incident here" required><?php echo "{$data["call"]->issue}" ?></textarea>
+                <textarea name="issue" rows="7" cols="30" placeholder="Write the incident here" required><?php echo "{$data["call"]->getIssue()}" ?></textarea>
             </div>
 
             <div>
                 <label for="area">Area</label>
-                <input type="text" name="area" required value="<?php echo "{$data["call"]->area}" ?>">
+                <input type="text" name="area" required value="<?php echo "{$data["call"]->getArea()}" ?>">
             </div>
 
             <div>
                 <label for="dateTime">Date</label>
-                <input type="date" name="dateTime" required value="<?php echo "{$data["call"]->dateTime}" ?>">
+                <input type="date" name="dateTime" required value="<?php echo "{$data["call"]->getDateTime()}" ?>">
             </div>
 
             <div>
