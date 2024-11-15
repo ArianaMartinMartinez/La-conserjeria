@@ -1,0 +1,59 @@
+form {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+form label {
+    font-size: larger;
+}
+
+.divIssue {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.createBtn, .resetBtn, .updateBtn {
+    width: 150px;
+    font-size: medium;
+    height: 35px;
+    cursor: pointer;
+    color: black;
+    border: 2px black solid;
+    border-radius: 3%;
+}
+
+.createBtn {
+    background-color: #b6ed6ace;
+}
+
+.createBtn:hover {
+    background-color: #71973ace;
+}
+
+.resetBtn {
+    background-color: #eae751ce;
+}
+
+.resetBtn:hover {
+    background-color: #8d8b2ace;
+}
+
+.updateBtn {
+    background-color: #86f3f7ce;
+}
+
+.updateBtn:hover {
+    background-color: #70c9ccce;
+}
+
+h2 {
+    text-align: center;
+    align-items: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
