@@ -29,13 +29,8 @@ All test passed.
 
 - ![Canva](https://img.shields.io/badge/-Canva-00C4CC?logo=canva&logoColor=white)
 - ![Figma](https://img.shields.io/badge/-Figma-F24E1E?logo=figma&logoColor=white)
-- [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Sitio%20Web-327FC7?style=for-the-badge&logo=github)](https://arianamartinmartinez.github.io/La-conserjeria/)
 
-
-## Installation Guide    
-
-💡You can visit the project hosted on github pages following this link:
-https://arianamartinmartinez.github.io/La-conserjeria/
+## Installation Guide
 
 0️⃣ The first step before doing the proyect is to design how the database is going to be structured; For this we have used [drawSQL](https://drawsql.app/), generating this table in the process that we will use as a template.
 
