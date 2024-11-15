@@ -1,6 +1,6 @@
 # The Concierge 👷‍♂️🛠️🏨
 
-In this project the objective is to create a CRUD using only PHP, HTML (interado), CSS and SQL queries to store and display the incidents that occurred in a hotel.
+In this project the objective is to create a CRUD using only PHP, HTML (integrated), CSS and SQL queries to store and display the incidents that occurred in a hotel.
 The CRUD is integrated into a table maintaining an external button to add new data. Which are: room number, incidents, area of ​​the hotel where they happen, and date.
 
 ## Project views
@@ -25,7 +25,12 @@ All test passed.
 - ![PHP](https://img.shields.io/badge/-PHP-777BB4?logo=php&logoColor=white)  
 - ![CSS](https://img.shields.io/badge/-CSS-1572B6?logo=css3&logoColor=white)  
 - ![HTML](https://img.shields.io/badge/-HTML-E34F26?logo=html5&logoColor=white)  
-- ![SQL](https://img.shields.io/badge/-SQL-4479A1?logo=sqlite&logoColor=white)  
+- ![SQL](https://img.shields.io/badge/-SQL-4479A1?logo=sqlite&logoColor=white) 
+
+- ![Canva](https://img.shields.io/badge/-Canva-00C4CC?logo=canva&logoColor=white)
+- ![Figma](https://img.shields.io/badge/-Figma-F24E1E?logo=figma&logoColor=white)
+- [![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Sitio%20Web-327FC7?style=for-the-badge&logo=github)](https://arianamartinmartinez.github.io/La-conserjeria/)
+
 
 ## Installation Guide    
 
@@ -58,11 +63,9 @@ https://arianamartinmartinez.github.io/La-conserjeria/
 
 ## About us
 We are a team of developers powering our skills in a bootcamp on frontend-backend and AWS.
-<p>https://github.com/ArianaMartinMartinez</p>
-<p>https://github.com/Crudo7</p>
-<p>https://github.com/soyJenifer</p>
-<p>https://github.com/SantiVigna</p>
-<p>https://github.com/sr-calcetines</p>
 
-
-
+- [Ariana Martín](https://github.com/ArianaMartinMartinez)
+- [Jose Gavilán](https://github.com/sr-calcetines)
+- [Francisco Muñoz](https://github.com/Crudo7)
+- [Santino Vigna](https://github.com/SantiVigna)
+- [Jenifer Moyano](https://github.com/soyJenifer)
