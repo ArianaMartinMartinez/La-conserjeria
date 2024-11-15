@@ -11,8 +11,7 @@ require_once("Components/layout.php");
             <button>Cancel</button>
         </a>
 
-        <form action="?action=storeUpdate" method="post">
-            <input type="hidden" name="id" value="<?php echo "{$data["call"]->id}" ?>">
+        <form action='?action=storeUpdate&id=<?php echo "{$data["call"]->id}" ?>' method="post">
             <div>
                 <label for="room">Room</label>
                 <input type="number" name="room" required value="<?php echo "{$data["call"]->room}" ?>">

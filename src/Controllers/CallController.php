@@ -29,7 +29,7 @@ class CallController {
         }
 
         if(isset($_GET["action"]) && ($_GET["action"] == "storeUpdate")) {
-            $this->storeUpdate($_POST);
+            $this->storeUpdate($_POST, $_GET["id"]);
             return;
         }
 
@@ -68,8 +68,8 @@ class CallController {
         new View("updateCall", ["call" => $call]);
     }
 
-    public function storeUpdate(array $request) {
-        $updatedCall = new Call($request["id"], $request["room"], $request["issue"], $request["dateTime"], $request["area"]);
+    public function storeUpdate(array $request, $id) {
+        $updatedCall = new Call($id, $request["room"], $request["issue"], $request["dateTime"], $request["area"]);
         $updatedCall->update();
 
         $this->index();
