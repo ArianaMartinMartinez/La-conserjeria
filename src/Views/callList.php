@@ -25,13 +25,13 @@
             foreach($data["call"] as $call) {
                 echo "
                 <tr>
-                <td class='smallWidth'>{$call->id}</td>
-                <td>{$call->dateTime}</td>
-                <td class='smallWidth'>{$call->room}</td>
-                <td>{$call->issue}</td>
-                <td>{$call->area}</td>
-                <td class='smallWidth'><a href='?action=delete&id={$call->id}'>🗑️</a></td>
-                <td class='smallWidth'><a href='?action=update&id={$call->id}'>✏️</a></td>
+                <td class='smallWidth'>{$call->getId()}</td>
+                <td>{$call->getDateTime()}</td>
+                <td class='smallWidth'>{$call->getRoom()}</td>
+                <td>{$call->getIssue()}</td>
+                <td>{$call->getArea()}</td>
+                <td class='smallWidth'><a href='?action=delete&id={$call->getId()}'>🗑️</a></td>
+                <td class='smallWidth'><a href='?action=update&id={$call->getId()}'>✏️</a></td>
                 </tr>
                 ";
             }
