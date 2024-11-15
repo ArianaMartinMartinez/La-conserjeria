@@ -17,15 +17,18 @@ form label {
     gap: 0.5rem;
 }
 
-.createBtn {
+.createBtn, .resetBtn, .updateBtn {
     width: 150px;
     font-size: medium;
     height: 35px;
-    background-color: #b6ed6ace;
     cursor: pointer;
     color: black;
     border: 2px black solid;
     border-radius: 3%;
+}
+
+.createBtn {
+    background-color: #b6ed6ace;
 }
 
 .createBtn:hover {
@@ -33,18 +36,19 @@ form label {
 }
 
 .resetBtn {
-    width: 150px;
-    font-size: medium;
-    height: 35px;
     background-color: #eae751ce;
-    cursor: pointer;
-    color: black;
-    border: 2px black solid;
-    border-radius: 3%;
 }
 
 .resetBtn:hover {
     background-color: #8d8b2ace;
+}
+
+.updateBtn {
+    background-color: #86f3f7ce;
+}
+
+.updateBtn:hover {
+    background-color: #70c9ccce;
 }
 
 h2 {

@@ -23,6 +23,16 @@ class CallController {
             return;
         }
 
+        if(isset($_GET["action"]) && ($_GET["action"] == "update")) {
+            $this->update($_GET["id"]);
+            return;
+        }
+
+        if(isset($_GET["action"]) && ($_GET["action"] == "storeUpdate")) {
+            $this->storeUpdate($_POST, $_GET["id"]);
+            return;
+        }
+
         $this->index();
     }
 
@@ -47,6 +57,20 @@ class CallController {
     public function store(array $request) {
         $newCall = new Call(null, $request["room"], $request["issue"], $request["dateTime"], $request["area"]);
         $newCall->save();
+
+        $this->index();
+    }
+
+    public function update($id) {
+        $callUpdate = new Call();
+        $call = $callUpdate->findById($id);
+
+        new View("updateCall", ["call" => $call]);
+    }
+
+    public function storeUpdate(array $request, $id) {
+        $updatedCall = new Call($id, $request["room"], $request["issue"], $request["dateTime"], $request["area"]);
+        $updatedCall->update();
 
         $this->index();
     }
