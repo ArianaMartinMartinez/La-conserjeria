@@ -14,6 +14,12 @@ The CRUD is integrated into a table maintaining an external button to add new da
 ![image](https://github.com/user-attachments/assets/6ed88f8f-4964-4585-aa5c-6e3783545ad9)
 <p align="center"><em>Update incident view</em></p>
 
+## Tests
+
+All test passed.
+
+![image (1)](https://github.com/user-attachments/assets/6c429bf6-bed6-4c0f-8592-1f032872f611)
+
 ## Languages ​​and tools
 
 - ![PHP](https://img.shields.io/badge/-PHP-777BB4?logo=php&logoColor=white)  
