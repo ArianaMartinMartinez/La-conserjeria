@@ -16,7 +16,8 @@ The CRUD is integrated into a table maintaining an external button to add new da
 
 ## Tests
 
-All test passed.
+All test passed. Introduce this line on your console to check it:
+`./vendor/bin/phpunit tests`
 
 ![image (1)](https://github.com/user-attachments/assets/6c429bf6-bed6-4c0f-8592-1f032872f611)
 
